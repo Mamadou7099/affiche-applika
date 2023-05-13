@@ -1,0 +1,174 @@
+body{
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: hsl(320, 73%, 12%);
+}
+
+.content{
+    padding: 50px;
+    margin: 0;
+    
+}
+.text_header{   
+    color: #ff345a;
+    font-size: 30px;
+    border-bottom: 2px solid;
+    width: 310px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.text_header2{
+    font-size: 50px;
+    color:#fff;
+    width: 80%;
+}
+.text_header3{
+    text-align: right;
+}
+h1{
+    padding-top: 45px;
+    color: #ff345a;
+    font-size: 40px;
+}
+h3{
+    padding-top: 25px;
+    color: #ff345a;
+    font-size: 25px;
+}
+p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.contenaire{
+    margin-top: 80px;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.mamadou{
+    text-decoration: none; 
+}
+.traore{
+    text-decoration: none;
+    display: flex;
+}
+.tra{
+    color: crimson;
+}
+.tré{
+    color: white;
+}
+.tr{
+    text-align: right;
+}
+.a{
+    line-height: 2px;
+}
+.d{
+    line-height: 2px;
+    text-decoration: none;
+
+    
+}
+.b{
+    line-height: 2px;
+}
+.c{
+    line-height: 2px;
+}
+h4{
+    color: crimson;
+}
+h5{
+    color: crimson;
+    
+}
+.moh{
+    color: white;
+}
+.footer{
+    display: flex;
+    font-weight: bold;
+    width: 100%;
+   
+}
+.f1{
+    font-size: 25px;
+    color: #ff345a;
+    width: 50%;
+    line-height: 25px;
+}
+.f2{
+    font-size: 25px;
+    color: #ff345a;
+    width: 50%;
+    line-height: 25px;
+    margin-left: 50%;
+}
+.fa{
+    color: #fff;
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .text_header2{
+        font-size: 25px;
+        line-height: 30px;
+        width: 80%;
+    }
+    .content{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .text_header{
+        color: #ff345a;
+        font-size: 20px;
+        border-bottom: 2px solid;
+        width: 200px;
+        padding-bottom: 20px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h3{
+      font-size: 10px;  
+    }
+    p{
+        font-size: 15px;
+    }
+    .f1{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .f2{
+        font-size: 15px;
+        line-height: 25px;  
+        margin-left: 100px;
+    }
+    .a{
+        line-height: 15px;
+    }
+    .b{
+        line-height: 15px;
+    }
+    .c{
+        line-height: 15px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    .contenaire{
+        margin-top: 50px;
+        display: flex;
+        font-size: 10px;
+        font-weight: bold;
+       
+    }
+  
+}
+
